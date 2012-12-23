@@ -3,7 +3,7 @@ layout: default
 ---
 
   <div class='something'>
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
     <h3><a href="{{post.url}}">{{post.title}}</a></h3>
       {{post.content}}
     {% endfor %}
