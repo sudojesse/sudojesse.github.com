@@ -1,4 +1,5 @@
 site_name: 'Jesse Shawl'
 pygments: true
 permalink: /:year/:month/:title
+markdown: rdiscount
 paginate: 5
