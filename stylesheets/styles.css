@@ -99,6 +99,7 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  text-align:center;
 }
 
 header h1 a{
@@ -109,6 +110,10 @@ header h1 a{
   color:#000;
 }
 
+header p {
+  text-align:center;
+}
+
 strong {
   color:#222;
   font-weight:700;
@@ -117,16 +122,7 @@ strong {
 header ul{
   padding:0;
   list-style:none;
-}
-
-header ul li + li {
-  width:88px;
-  border-left:1px solid #fff;
-}
-
-header ul li + li + li {
-  border-right:none;
-  width:89px;
+  text-align:left;
 }
 
 header ul a strong {
@@ -176,10 +172,6 @@ footer {
     float:none;
     position:static;
     width:auto;
-  }
-  
-  header {
-    padding-right:320px;
   }
   
   section {
