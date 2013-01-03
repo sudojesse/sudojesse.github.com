@@ -77,7 +77,7 @@ The pushState() method takes three parameters:
 history.pushState(stateObject, 'title', URL);
 {% endhighlight %}   
 
-We're only going to be supplying the URL in this example, but you can learn more about the history API over at the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/DOM/Manipulating_the_browser_history)
+We're only going to be supplying the URL in this example, but you can learn more about the history API over at the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/DOM/Manipulating_the_browser_history).
 
 After changing the URL, we'll want to set up a function to load the content - loadContent() seems like a good name.
 
