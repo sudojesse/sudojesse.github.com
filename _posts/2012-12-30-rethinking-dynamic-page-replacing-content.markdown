@@ -12,7 +12,7 @@ Here's a quick recap of the best practices:
 2. It is possible to "deep link" to specific content. 
 3. The browsers back button and forward button work as expected.
 
-## Mo' hashes, Mo' problems
+## The problem with URL hashes
 
 For one individual user, the [existing demo](http://css-tricks.com/examples/DynamicPage/) meets the criteria just fine, but URL's are permanent addresses, and they're going to be shared. 
 
