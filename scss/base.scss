@@ -1,0 +1,79 @@
+@import "normalize";
+@import "pygment_trac";
+@import "code";
+@import "bits";
+@import "header";
+
+*{
+	-webkit-box-sizing:border-box;
+}
+
+body {
+	max-width:60em;
+	margin:0 auto;
+	background:darken(white, 5%);
+	font-family: 'brandon-grotesque';
+}
+
+header h1 {
+	
+	font-family: 'brandon-grotesque',"Helvetica Neue", Helvetica;
+	font-size:4em;
+	@include contained;
+	font-weight:900;
+	padding:.5em 0 0 0;
+	
+	a {
+		color:darken(white, 70%);
+		text-decoration: none;
+		display:block;
+		border-bottom:1px solid darken(white,10%);
+	}
+	&:before{
+
+	}
+}
+
+section {
+	@include contained;
+	
+	@media all and (min-width:750px){
+		font-size:1.5em;
+	}
+	code{
+		font-size:.75em;
+	}
+	font-weight:300;
+	h1, h2, h3, h4 {
+		color:darken(white, 70%);
+		font-weight:400;
+		a{
+			text-decoration: none;
+			color:#009CDC;
+		}
+	}
+}
+
+a{
+	color:#009CDC;
+}
+
+.post{
+	margin:2em 0;
+}
+
+.post h2{
+	margin:0;
+}
+
+.post__time{
+	font-weight:100;
+	font-size:.75em;
+}
+
+footer {
+	@include contained;
+	font-weight:100;
+	padding:1em 0;
+	border-top:1px solid darken(white,10%);
+}
